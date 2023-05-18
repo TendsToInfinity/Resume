@@ -1,109 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alankrit Mishra's Resume</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
-            padding: 20px;
+            background-image: url('image.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
         }
-        .nav-link {
-            cursor: pointer;
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
         }
-        .section {
-            display: none;
+        h1, h2 {
+            color: #333;
         }
-        .section.active {
-            display: block;
+        a {
+            color: #0066cc;
         }
     </style>
 </head>
 <body>
-    <h1>Alankrit Mishra's Resume</h1>
+    <div class="container">
+        <h1>ALANKRIT MISHRA</h1>
+        <p>
+            alano21816@gmail.com • +14128013726 • 
+            <a href="https://www.linkedin.com/in/alankritrmishra/">LinkedIn</a>
+        </p>
 
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" id="summary-tab">Professional Summary</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="skills-tab">Skills & Certifications</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="education-tab">Education</a>
-        </li>
-        <!-- Add more navigation items as necessary -->
-    </ul>
+        <h2>Professional Summary</h2>
+        <p>
+            A highly skilled and solutions-oriented Senior Cloud Engineer with over 6 years of experience in designing and managing public cloud architectures, particularly on AWS, GCP, and Azure. Expert in Infrastructure as Code (IaC) practices, monitoring, alerting, and logging tools, with a strong focus on system optimization and resource utilization.
+        </p>
 
-    <div class="section active" id="summary">
-        <p>Technical Skills:
-Languages: Java, C/C++, SQL, PL/SQL, Python, Golang.
-Cloud Computing: AWS, GCP, Azure
-Configuration Management: Chef, Ansible, Terraform.
-Source Code Management: Subversion, Git, GitHub, GitLab, Bitbucket
-Monitoring Tools: Grafana, Splunk, CloudWatch, Prometheus, Logstash, Dynatrace, Data Dog
-Virtualization Tools: Docker, VMware, Virtual Box, Kubernetes.
-Scripting Languages: Shell, Python, Scala, Go, Java Scripting.
-Web/Application Servers: Tomcat, WebLogic, JBoss, Nginx
-CI/CD Tools: Jenkins, Gitlab CICD, Argo CD
-Build Tools: ANT, Maven.
-Artifactory repository- Jfrog, Git
-Operating systems: Windows, Linux, RHEL, Mac OS X, CentOS.
-Certifications:
-AWS Certified Associate Solution Architect
-Certified Scrum Master (CSM)
-Certified associate in project management (CAPM) (PMI)
-Certified Kubernetes Administrator (CKA)</p>
+        <h2>Skills & Certifications</h2>
+        <ul>
+            <li>Languages: Java, C/C++, SQL, PL/SQL, Python, Golang.</li>
+            <li>Cloud Computing: AWS, GCP, Azure</li>
+            <li>Configuration Management: Chef, Ansible, Terraform.</li>
+            <li>Source Code Management: Subversion, Git, GitHub, GitLab, Bitbucket</li>
+            <li>Monitoring Tools: Grafana, Splunk, CloudWatch, Prometheus, Logstash, Dynatrace, Data Dog</li>
+            <li>Virtualization Tools: Docker, VMware, Virtual Box, Kubernetes.</li>
+            <li>Scripting Languages: Shell, Python, Scala, Go, Java Scripting.</li>
+            <li>Web/Application Servers: Tomcat, WebLogic, JBoss, Nginx</li>
+            <li>CI/CD Tools: Jenkins, Gitlab CICD, Argo CD</li>
+            <li>Build Tools: ANT, Maven.</li>
+            <li>Operating systems: Windows, Linux, RHEL, Mac OS X, CentOS.</li>
+            <!-- Continue with the rest of your skills -->
+        </ul>
+        <p>Certifications: AWS Certified Associate Solution Architect, Certified Scrum Master (CSM), Certified associate in project management (CAPM) (PMI), Certified Kubernetes Administrator (CKA)</p>
+
+        <h2>Education</h2>
+        <h3>Union College, Kentucky, US</h3>
+        <p>Masters in business administration, Aug 2024</p>
+        <h3>University of Pittsburgh, Joseph M. Katz Graduate School of Business, Pittsburgh, US</h3>
+        <p>Master of Science in Management Information Systems, May 2022</p>
+        <h3>Visvesvaraya Technological University, Bengaluru, IN</h3>
+        <p>Bachelor of Engineering in Electronics & Communication, May 2016</p>
     </div>
-
-    <div class="section" id="skills">
-        <p>Technical Skills:
-Languages: Java, C/C++, SQL, PL/SQL, Python, Golang.
-Cloud Computing: AWS, GCP, Azure
-Configuration Management: Chef, Ansible, Terraform.
-Source Code Management: Subversion, Git, GitHub, GitLab, Bitbucket
-Monitoring Tools: Grafana, Splunk, CloudWatch, Prometheus, Logstash, Dynatrace, Data Dog
-Virtualization Tools: Docker, VMware, Virtual Box, Kubernetes.
-Scripting Languages: Shell, Python, Scala, Go, Java Scripting.
-Web/Application Servers: Tomcat, WebLogic, JBoss, Nginx
-CI/CD Tools: Jenkins, Gitlab CICD, Argo CD
-Build Tools: ANT, Maven.
-Artifactory repository- Jfrog, Git
-Operating systems: Windows, Linux, RHEL, Mac OS X, CentOS.
-Certifications:
-AWS Certified Associate Solution Architect
-Certified Scrum Master (CSM)
-Certified associate in project management (CAPM) (PMI)
-Certified Kubernetes Administrator (CKA)</p>
-    </div>
-
-    <div class="section" id="education">
-        <p>Union College, Kentucky, US
-Masters in Business Administration, Aug 2024
-
-University of Pittsburgh, Joseph M. Katz Graduate School of Business, Pittsburgh, US
-Master of Science in Management Information Systems, May 2022
-
-Visvesvaraya Technological University, Bengaluru, IN
-Bachelor of Engineering in Electronics & Communication, May 2016</p>
-    </div>
-
-    <!-- Continue to add sections for Work Experience and Academic Projects following the structure above -->
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $('.nav-link').on('click', function () {
-                $('.nav-link').removeClass('active');
-                $(this).addClass('active');
-
-                let sectionToShow = $(this).attr('id').replace('-tab', '');
-                $('.section').removeClass('active');
-                $('#' + sectionToShow).addClass('active');
-            });
-        });
-    </script>
 </body>
 </html>
